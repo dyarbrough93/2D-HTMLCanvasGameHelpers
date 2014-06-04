@@ -1,0 +1,80 @@
+<!--
+	Template file for an html5 canvas game. Creates the canvas and initializes necessary event handlers and variables.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type = "text/css">
+			canvas {
+				border: 1px solid black;
+			}
+		</style>
+		<script type = "text/javascript" src = "event_handlers.js"></script>
+		<script type = "text/javascript">
+		// Global variables
+		var cw, ch, canvas;
+		
+		// Global settings
+		var settings = {
+			frameRate: 60
+		};
+		
+		// Call init when the window is loaded
+		window.onload = init;
+		
+		// Initialize everything and start the game loop
+		function init()
+		{
+			initCanvas();
+			initEventListeners();
+			loop();
+		};
+		
+		// Create and add the canvas to the document
+		function initCanvas()
+		{
+			canvas = document.createElement("canvas")
+			document.body.children[0].appendChild(canvas);
+			cw = canvas.width = window.innerWidth - 100;
+			ch = canvas.height = window.innerHeight - 50;
+		}
+		
+		// Handle initialization of all event listeners
+		function initEventListeners()
+		{
+			// Mouse and key event handlers
+			eventHandlers.initMouse(canvas);
+			eventHandlers.initKeys(canvas);
+			
+			// Keep the canvas approximately the same size as the window
+			window.onresize = function() {
+				cw = canvas.width = window.innerWidth - 100;
+				ch = canvas.height = window.innerHeight - 50;
+			};
+		}
+		
+		// Game loop
+		function loop()
+		{
+			update();
+			render();
+			setTimeout(loop, 1000 / settigns.frameRate);
+		}
+		
+		// Update all game elements
+		function update()
+		{
+			// @TODO: Update logic
+		}
+		
+		// Draw all game elements to the canvas
+		function render()
+		{
+			// @TODO: Render logic
+		}
+		</script>
+	</head>
+	<body>
+		<center></center>
+	</body>
+</html>
