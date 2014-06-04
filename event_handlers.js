@@ -11,10 +11,10 @@ var eventHandlers = {
 	 * Initialize the mouse event handlers
 	 * @param canvas The canvas to attach the event listeners to
 	 */
-	initMouse: function(canvas) {
+	initMouseEvents: function(canvas) {
 		
 		// Get mouse position on mouse move
-		canvas.onmousemove = function(e)
+		canvas.onmousemove = function(e) 
 		{
 			eventHandlers.mouse.x = (e.pageX - canvas.offsetLeft);
 			eventHandlers.mouse.y = (e.pageY - canvas.offsetTop);
@@ -51,7 +51,7 @@ var eventHandlers = {
 	 * Initialize the key event handlers
 	 * @param canvas The canvas to attach the event listeners to
 	 */
-	initKeys: function(canvas) {
+	initKeyEvents: function(canvas) {
 		
 		// Keydown event handler
 		canvas.onkeydown = function(e) {
