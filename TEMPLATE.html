@@ -43,8 +43,8 @@
 		function initEventListeners()
 		{
 			// Mouse and key event handlers
-			eventHandlers.initMouse(canvas);
-			eventHandlers.initKeys(canvas);
+			eventHandlers.initMouseEvents(canvas);
+			eventHandlers.initKeyEvents(canvas);
 			
 			// Keep the canvas approximately the same size as the window
 			window.onresize = function() {
@@ -58,7 +58,7 @@
 		{
 			update();
 			render();
-			setTimeout(loop, 1000 / settigns.frameRate);
+			setTimeout(loop, 1000 / settings.frameRate);
 		}
 		
 		// Update all game elements
