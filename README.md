@@ -42,4 +42,4 @@ Full list of mouse and key object attributes in the event_handlers.js file.
 
 ##Template
 
-Template file for an html5 canvas game. Useful as a learning tool or to get a project up and running as quickly as possible.
+Template file for an html5 canvas game. Useful as a learning tool or to get a project up and running as quickly as possible. event_handlers.js is a dependency.
