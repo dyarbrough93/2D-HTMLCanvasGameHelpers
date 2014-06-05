@@ -23,7 +23,7 @@ var eventHandlers = {
 		// Modify mouse object values on mouse down
 		canvas.onmousedown = function(e)
 		{	
-			if (e.which === eventHandlers.mousecodes.LEFT)
+			if (e.which === eventHandlers.mousecodes.LEFT) 
 				eventHandlers.mouse.leftDown = true;
 			else if (e.which ===  eventHandlers.mousecodes.RIGHT)
 				eventHandlers.mouse.rightDown = true;
@@ -53,10 +53,14 @@ var eventHandlers = {
 	 */
 	initKeyEvents: function(canvas) {
 		
+		canvas.tabIndex = 1000;
+		//canvas.style.outline = "none"; // Uncomment this if you want to remove the highlighting that some browsers will apply to the canvas when it is given focus
+		
 		// Keydown event handler
 		canvas.onkeydown = function(e) {
 			switch(e.which) {
 				case eventHandlers.keycodes.BACKSPACE: 
+					console.log("hi");
 					eventHandlers.keys.backspaceDown = true;
 					break;
 				case eventHandlers.keycodes.TAB:
