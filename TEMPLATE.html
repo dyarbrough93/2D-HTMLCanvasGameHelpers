@@ -18,7 +18,7 @@
 		<script type ="text/javascript" src ="event_handlers.js"></script>
 		<script type ="text/javascript">
 		// Global variables
-		var cw, ch, canvas;
+		var cw, ch, canvas, ctx;
 		
 		// Global settings
 		var settings = {
@@ -41,6 +41,7 @@
 		{
 			canvas = document.createElement("canvas")
 			document.body.children[0].appendChild(canvas);
+			ctx = canvas.getContext("2d");
 			cw = canvas.width = window.innerWidth - 100;
 			ch = canvas.height = window.innerHeight - 50;
 		}
