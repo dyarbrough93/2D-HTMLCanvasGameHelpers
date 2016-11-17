@@ -1,42 +1,91 @@
 {
- "name": "flare",
- "children": [
-  {
-   "name": "North America",
-   "children": [
-    {"name": "Easing", "size": 17010},
-    {"name": "FunctionSequence", "size": 5842},
-    {
-     "name": "interpolate",
-     "children": [
-      {"name": "ArrayInterpolator", "size": 1983},
-      {"name": "ColorInterpolator", "size": 2047},
-      {"name": "DateInterpolator", "size": 1375},
-      {"name": "Interpolator", "size": 8746},
-      {"name": "MatrixInterpolator", "size": 2202},
-      {"name": "NumberInterpolator", "size": 1382},
-      {"name": "ObjectInterpolator", "size": 1629},
-      {"name": "PointInterpolator", "size": 1675},
-      {"name": "RectangleInterpolator", "size": 2042}
-     ]
-    },
-    {"name": "ISchedulable", "size": 1041},
-    {"name": "Parallel", "size": 5176},
-    {"name": "Pause", "size": 449},
-    {"name": "Scheduler", "size": 5593},
-    {"name": "Sequence", "size": 5534},
-    {"name": "Transition", "size": 9201},
-    {"name": "Transitioner", "size": 19975},
-    {"name": "TransitionEvent", "size": 1116},
-    {"name": "Tween", "size": 6006}
-   ]
-  },
-  {
-  "name": "South America",
-   "children": [
-    {"name": "Easing", "size": 17010},
-    {"name": "FunctionSequence", "size": 5842}
-   ]
-  }
- ]
+    "name": "flare",
+    "children": [{
+            "name": "North America",
+            "size": 7.79 "children": [{
+                "name": "Antigua and Barbuda",
+                "size": 0.02
+            }, {
+                "name": "Bahamas",
+                "size": 0.07
+            }, {
+                "name": "Barbados",
+                "size": 0.05
+            }, {
+                "name": "Belize",
+                "size": 0.06
+            }, {
+                "name": "Canada",
+                "size": 6.31
+            }, {
+                "name": "Costa Rica",
+                "size": 0.85
+            }, {
+                "name": "Cuba",
+                "size": 6.31
+            }, {
+                "name": "Dominica",
+                "size": 0.01
+            }, {
+                "name": "Dominican Republic",
+                "size": 1.76
+            }, {
+                "name": "El Salvador",
+                "size": 1.14
+            }, {
+                "name": "Grenada",
+                "size": 0.02
+            }, {
+                "name": "Guatemala",
+                "size": 2.85
+            }, {
+                "name": "Haiti",
+                "size": 1.94
+            }, {
+                "name": "Honduras",
+                "size": 1.58
+            }, {
+                "name": "Jamaica",
+                "size": 0.48
+            }, {
+                "name": "Mexico",
+                "size": 21.31
+            }, {
+                "name": "Nicaragua",
+                "size": 1.15
+            }, {
+                "name": "Panama",
+                "size": 0.66
+            }, {
+                "name": "Saint Kitts and Nevis",
+                "size": 0.01
+            }, {
+                "name": "Saint Lucia",
+                "size": 0.01
+            }, {
+                "name": "Saint Vincent and the Grenadines",
+                "size": 0.02
+            }, {
+                "name": "United States of America",
+                "size": 56.58
+            }, ]
+        }, {
+            "name": "Asia",
+            "size": 56.69
+        },
+
+        {
+            "name": "Africa",
+            "size": 16.36
+        }, {
+            "name": "Europe",
+            "size": 9.94
+        }, {
+            "name": "South America",
+            "size": 5.68
+        }, {
+            "name": "Oceania",
+            "size": 0.54
+        },
+    ]
 }
