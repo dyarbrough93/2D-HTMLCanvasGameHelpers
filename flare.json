@@ -31,6 +31,7 @@
     {"name": "Tween", "size": 6006}
    ]
   },
+  {
   "name": "South America",
    "children": [
     {"name": "Easing", "size": 17010},
