@@ -50,8 +50,7 @@
 		function initEventListeners()
 		{
 			// Mouse and key event handlers
-			eventHandlers.initMouseEvents(canvas);
-			eventHandlers.initKeyEvents(canvas);
+			KMEH.init(canvas);
 			
 			// Keep the canvas approximately the same size as the window
 			window.onresize = function() {
