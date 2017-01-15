@@ -1,4 +1,4 @@
-Javascript Helpers
+2D HTML Canvas Game Helpers
 ==================
 
 Some files designed to be used with html5 canvas games.
