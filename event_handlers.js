@@ -1,7 +1,7 @@
 /*
  * Provides an easy interface for canvas event handling
  */
-var KeyMouseEventHandlers = (function(window, undefined) {
+var KMEH = (function(window, undefined) { // Key Mouse Event Handlers
 
 	var canvas;
 
