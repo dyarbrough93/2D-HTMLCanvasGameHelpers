@@ -3,7 +3,7 @@
 
 Some files designed to be used with html5 canvas games.
 
-##Event Handlers
+## Event Handlers
 
 Simple mouse / keyboard handler for 2D canvas games.
 
@@ -45,6 +45,6 @@ KMEH.keyDown(keyLeft); // true if left arrow is pressed
  * More can be added to the keyCode object
  */
 ```
-##Template
+## Template
 
-Template file for an html5 canvas game. Useful as a learning tool or to get a project up and running as quickly as possible. event_handlers.js is a dependency.
+Template file for a 2D html5 canvas game. Useful as a learning tool or to get a project up and running as quickly as possible. event_handlers.js is a dependency.
